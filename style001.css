@@ -4,29 +4,37 @@ body {
 	background: transparent radial-gradient(at calc(var(--cursor-x, 0) * 100%) calc(var(--cursor-y, 0) * 100%), #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff) no-repeat 0 0;
 }
 div.static001 {
-  position: static;
+	position: static;
 }
 div.absolute001 {
-  position: absolute;
-  top: 0px;
-  right: 0;
-  width: 600px;
-  height: 200px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width: 600px;
+	height: 200px;
 }
 div.absolute002 {
-  position: absolute;
-  top: 200px;
-  right: 0;
-  width: 600px;
-  height: 200px;
+	position: absolute;
+	top: 200px;
+	right: 0;
+	width: 600px;
+	height: 200px;
 }
 div.absolute003 {
-  position: absolute;
-  top: 400px;
-  right: 0;
-  width: 600px;
-  height: 200px;
+	position: absolute;
+	top: 400px;
+	right: 0;
+	width: 600px;
+	height: 200px;
 }
 h1 {
-  color: #991111;
+	color: #991111;
+}
+a {
+	text-decoration: none;
+	text-shadow: 4px 3px red;
+	color: #aaaaaa;
+}
+a:hover {
+	color: #ff00ff;
 }

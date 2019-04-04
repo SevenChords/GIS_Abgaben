@@ -1,1 +1,40 @@
+body {
+	font-family: "";
+	font-size: 20px;
+	background: transparent radial-gradient(at calc(var(--cursor-x, 0) * 100%) calc(var(--cursor-y, 0) * 100%), #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff) no-repeat 0 0;
+}
+div.fixed001 {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	border: 10px solid #000000;
+}
+div.absolute001 {
+	position: absolute;
+	top: 80px;
+	right: 0;
+	width: 200px;
+	height: 100px;
+	border: 3px solid #aa1111;
+}
+div.relative001 {
+	position: relative;
+	height: 1200px;
+  	left: 30px;
+	border: 5px solid #111111;
+}
+p1 {
+	color: green;
+}
+h2 {
+	text-align: center;
+}
 
+h3 {
+	text-align: left;
+}
+
+h4 {
+	text-align: right;
+}
